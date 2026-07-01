@@ -1,0 +1,28 @@
+
+
+
+.container {
+    display: flex;    
+    height: 300px;
+    background-color: antiquewhite;
+
+    justify-content: space-evenly; /*JUSTIFY-CONTENT alinha na horizontal ---->>   */
+    align-items: center; /*ALIGN-ITEMS alinha na vertical de cima para baixo*/
+
+
+
+
+    /*a ideia do AXIS é tipo leitura da esquerda para a direita de cima para baixo*/
+}
+
+.item {
+
+    width: 100px;
+    border: 1px solid black;
+    background-color: aliceblue;    
+    height: 100px;
+
+    
+}
+
+
