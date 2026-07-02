@@ -1,0 +1,50 @@
+
+
+.container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    max-width: 1200px; /*limita a largura máxima*/
+    margin: 40px auto; /* margem de 40 em cima e baixo e centraliza*/
+
+
+
+}
+
+.item {
+    display: flex;
+    flex-basis: 200px;
+    background-color: steelblue;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 0 5px 7px gray;    
+    border-radius: 7px;
+    transition: 0.3s;
+    
+        transition:
+        transform .3s,
+        background-color .3s;
+
+
+}
+
+.efeito:hover {
+    background-color: rgb(8, 64, 148);
+
+
+    transform: scale(1.05);
+    color: white;
+    cursor: pointer; /*muda mouse para dedinho*/
+
+
+        transition:
+        transform .3s,
+        background-color .3s;
+
+
+
+
+}
+

@@ -1,0 +1,42 @@
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row ; /* muda a direção do diplsay flex ou melhor do main axis*/   
+    gap: 10px; /* usar gap em itens dentro do flexbox e margin fora */
+
+    flex-wrap: wrap; /*o flex-wrap Os itens quebram para a linha seguinte"*/
+
+    /*flex-shrink: 1;  1 = Todos diminuem / 0 =  Nunca diminua este item*/
+
+   
+}
+
+
+
+.item {
+    display: flex;
+    width: 50px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border: 1px solid black;
+
+    flex-grow: 1; /*estica os itens em toda extensão*/
+}
+
+.grow {
+    display: flex;
+
+    flex-basis: 200px; /*É o tamanho inicial do item antes de crescer ou diminuir.    
+    Depois o Flexbox decide se aumenta ou reduz conforme o espaço disponível.*/
+
+    flex-grow: 2; /*o item javascript irá crescer mais que os outros itens*/
+}
+
+
+
+
